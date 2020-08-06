@@ -1,0 +1,109 @@
+body {
+    background-color: black;
+}
+.wrapper {
+    width: 316px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    color: lightgray;
+    text-align: center;
+    font-size: 16pt;
+
+}
+.bar{
+    float: left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 2px;
+    color: black;
+    font-size: 10pt;
+}
+.purple {
+    background-color: rgb(170, 88, 170);
+}
+.orange {
+    background-color: #F9BF3B;
+}
+.green {
+    background-color: #00FF7F;
+}
+.red {
+    background-color: #F64747;
+}
+
+.info {
+    width: 300px;
+    background-color: #000000;
+    margin-top: 0px;
+    padding: 5px;
+    text-align: left;
+}
+.infonumber {
+    font-size: 80pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.button {
+    border: black 1px solid;
+    border-radius: 50%;
+    background-color: lightgray;
+    width: 80px;
+    height:80px;
+    color: black;
+    position: relative;
+    margin: 0 auto 0 auto;
+    
+}
+.button a{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+}
+
+#current, #current2 {
+    font-size: 80pt;
+}
+
+.slidecontainer {
+  width: 100%; 
+}
+
+.slider {
+  -webkit-appearance: none;  
+  appearance: none;
+  width: 100%;  
+  height: 15px;
+  border-radius: 5px;  
+  background:lightgray; 
+  outline: none; 
+  opacity: 0.7; 
+  -webkit-transition: .2s; 
+  transition: opacity .2s;
+  margin: 5px 0 10px 0;
+}
+
+.slider:hover {
+  opacity: 1; 
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; 
+  appearance: none;
+  width: 25px; 
+  height: 25px; 
+  background: #00FF7F;
+  cursor: pointer; 
+  border-radius: 50%; 
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; 
+  height: 25px; 
+  background:lightgray; 
+  cursor: pointer; 
+}
